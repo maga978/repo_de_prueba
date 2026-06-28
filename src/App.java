@@ -27,7 +27,7 @@ System.out.println("su edad el proximo año sera: " + edad+" años");*/
 
 //APLICACION QUE CALCULE LA MEDIA ARITMETICA DE DOS NOTAS ENTERAS. LA MEDIA PUEDE CONTENER DECIMALES.
 
-int nota1, nota2;
+/*int nota1, nota2;
 double media;
 System.out.print("ingrese la primera nota: ");
 nota1= sc.nextInt();
@@ -35,14 +35,52 @@ System.out.print("ingrese la segunda nota: ");
 nota2= sc.nextInt();
 media= (nota1 + nota2) / 2.0;
 System.out.println("la media es: "+ media);
+//FIN DEL EJERCICIO*/
+
+//PROGRAMA QUE PIDE COMO ENTRADA UN NUMERO DECIMAL Y LO MUESTRE REDONDEADO AL ENTERO MÁS PROXIMO
+
+/*double num;
+int redondeo;
+System.out.print("ingresa un numero decimal: ");
+num = sc. nextDouble();
+redondeo = (int) (num + 0.5);
+System.out.print(num + "el numero redondeado es: " + redondeo);*/
+
 //FIN DEL EJERCICIO
 
+//UN FRUTERO NECESITA CALCULAR LOS BENEFIIOS ANUALES QUE OBTIENE DE LA VENTA DE MANZANAS UU PERAS
+double preciomanzana=2.35;
+double preciopera=1.95;
 
+int manzanaT1, manzanaT2,manzanaT3,manzanaT4;
+int peraT1,peraT2,peraT3,peraT4;
 
+double importetotal;
+ 
+System.out.print("venta de la manzanas: ");
+System.out.print("para el primer trimestre fue: ");
+manzanaT1= sc.nextInt();
+System.out.print("para el segundo trimestre fue: ");
+manzanaT2= sc.nextInt();
+System.out.print("para el trimestre trimestre fue: ");
+manzanaT3= sc.nextInt();
+System.out.print("para el cuarto trimestre fue: ");
+manzanaT4= sc.nextInt();
 
+System.out.print("venta para las peras: ");
+System.out.print("para el primer trimestre fue: ");
+peraT1=sc.nextInt();
+System.out.print("para el segundo trimestre fue: ");
+peraT2=sc.nextInt();
+System.out.print("para el tercer trimestre fue: ");
+peraT3=sc.nextInt();
+System.out.print("para el cuarto trimestre fue: ");
+peraT4=sc.nextInt();
 
+importetotal= (manzanaT1+manzanaT2+manzanaT3+manzanaT4)*preciomanzana;
+importetotal = (peraT1+peraT2+peraT3+peraT4)*preciopera;
 
-
+System.out.println("la venta de las manzanas y peras en el año fue: " + importetotal +  " pesos");
 
 
 
