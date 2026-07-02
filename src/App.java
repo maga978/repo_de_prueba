@@ -117,7 +117,7 @@ cochinillacap= sc.nextInt();
 System.out.println("el numero total de patas capturadas hoy es: "+ ((hormigas*hormigacap)+(arañas*arañacap)+(cochinilla*cochinillacap)) );
 */
 
-
+//programa que muestre el residuo del numero 7 para saber cuanto falta para que sea ede multiplo 7
 int numeroingresado;    
 
 System.out.print("Ingrese un número entero: ");
