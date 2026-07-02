@@ -99,7 +99,7 @@ area= pi*radio*radio;
 //FIN DEL AJERCCIO
 
 //CONTABILIZADOR DE NUMEROS DE PATAS DE ESPECIES CAPTURADOS
-int hormigas=6;
+/*int hormigas=6;
 int arañas=8;
 int cochinilla=14;
 
@@ -115,9 +115,20 @@ System.out.print("ingrese cuantas cochinillas capturaron el dia de hoy: ");
 cochinillacap= sc.nextInt();
 
 System.out.println("el numero total de patas capturadas hoy es: "+ ((hormigas*hormigacap)+(arañas*arañacap)+(cochinilla*cochinillacap)) );
+*/
 
 
+int numeroingresado;    
 
+System.out.print("Ingrese un número entero: ");
+numeroingresado = sc.nextInt(); 
+
+
+int residuo = numeroingresado % 7; 
+
+System.out.println("El residuo de la división es: " + residuo);
+        
+ System.out.print("se tiene que sumar: "+(7-residuo)+" para que de multiplo de 7" );
 
 
 
