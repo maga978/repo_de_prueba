@@ -49,7 +49,7 @@ System.out.print(num + "el numero redondeado es: " + redondeo);*/
 //FIN DEL EJERCICIO
 
 //UN FRUTERO NECESITA CALCULAR LOS BENEFIIOS ANUALES QUE OBTIENE DE LA VENTA DE MANZANAS UU PERAS
-double preciomanzana=2.35;
+/*double preciomanzana=2.35;
 double preciopera=1.95;
 
 int manzanaT1, manzanaT2,manzanaT3,manzanaT4;
@@ -80,7 +80,44 @@ peraT4=sc.nextInt();
 importetotal= (manzanaT1+manzanaT2+manzanaT3+manzanaT4)*preciomanzana;
 importetotal = (peraT1+peraT2+peraT3+peraT4)*preciopera;
 
-System.out.println("la venta de las manzanas y peras en el año fue: " + importetotal +  " pesos");
+System.out.println("la venta de las manzanas y peras en el año fue: " + importetotal +  " pesos");*/
+//FIN DEL EJERCICIO
+
+//CALCULE LA LONGITUD Y EL AREA DE UNA CIRCUNFERENCIA.EL USUSARIO DEBE INTRODUCIR EL RADIO
+
+/*double pi= 3.14;
+double area;
+double radio,longitud ;
+
+System.out.print("Ingrese el radio: ");
+radio  = sc.nextDouble(); 
+longitud= 2*pi*radio;
+area= pi*radio*radio;
+ System.out.print("La longitud del circulo es: "+ longitud);
+ System.out.print("El area de la circunferencia es: "+ area);
+*/
+//FIN DEL AJERCCIO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
