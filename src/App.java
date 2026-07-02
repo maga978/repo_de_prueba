@@ -98,9 +98,23 @@ area= pi*radio*radio;
 */
 //FIN DEL AJERCCIO
 
+//CONTABILIZADOR DE NUMEROS DE PATAS DE ESPECIES CAPTURADOS
+int hormigas=6;
+int arañas=8;
+int cochinilla=14;
 
+int hormigacap;
+int arañacap;
+int cochinillacap;
 
+System.out.print("ingrese cuantas hormigas capturaron el dia de hoy: ");
+hormigacap= sc.nextInt();
+System.out.print("ingrese cuantas arañas capturaron el dia de hoy: ");
+arañacap= sc.nextInt();
+System.out.print("ingrese cuantas cochinillas capturaron el dia de hoy: ");
+cochinillacap= sc.nextInt();
 
+System.out.println("el numero total de patas capturadas hoy es: "+ ((hormigas*hormigacap)+(arañas*arañacap)+(cochinilla*cochinillacap)) );
 
 
 
