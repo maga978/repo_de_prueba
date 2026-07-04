@@ -7,17 +7,17 @@ public class App {
 
  //EJERCCIO MOSTRANDO EL NUMERO AL USUARIO
 
-       /*int num;
+       int num;
         System.out.println("ingrese un numero por favor: ");
         num= sc.nextInt();
-        System.out.println("el numero ingresado es: "+num);*/
+        System.out.println("el numero ingresado es: "+num);
 
 //FIN DEL EJERCICIO
 
 
 //EJERCCIO PARA PEDIR EDAD AL USUSARIO Y MOSTRAR SU EDAD UN AÑO DESPUES
 
-/*System.out.println("ingrse su edad: ");
+System.out.println("ingrse su edad: ");
 int edad;
 edad= sc.nextInt();
 edad= edad + 1;
@@ -27,7 +27,7 @@ System.out.println("su edad el proximo año sera: " + edad+" años");*/
 
 //APLICACION QUE CALCULE LA MEDIA ARITMETICA DE DOS NOTAS ENTERAS. LA MEDIA PUEDE CONTENER DECIMALES.
 
-/*int nota1, nota2;
+int nota1, nota2;
 double media;
 System.out.print("ingrese la primera nota: ");
 nota1= sc.nextInt();
@@ -35,21 +35,21 @@ System.out.print("ingrese la segunda nota: ");
 nota2= sc.nextInt();
 media= (nota1 + nota2) / 2.0;
 System.out.println("la media es: "+ media);
-//FIN DEL EJERCICIO*/
+//FIN DEL EJERCICIO
 
 //PROGRAMA QUE PIDE COMO ENTRADA UN NUMERO DECIMAL Y LO MUESTRE REDONDEADO AL ENTERO MÁS PROXIMO
 
-/*double num;
+double num;
 int redondeo;
 System.out.print("ingresa un numero decimal: ");
 num = sc. nextDouble();
 redondeo = (int) (num + 0.5);
-System.out.print(num + "el numero redondeado es: " + redondeo);*/
+System.out.print(num + "el numero redondeado es: " + redondeo);
 
 //FIN DEL EJERCICIO
 
 //UN FRUTERO NECESITA CALCULAR LOS BENEFIIOS ANUALES QUE OBTIENE DE LA VENTA DE MANZANAS UU PERAS
-/*double preciomanzana=2.35;
+double preciomanzana=2.35;
 double preciopera=1.95;
 
 int manzanaT1, manzanaT2,manzanaT3,manzanaT4;
@@ -80,12 +80,12 @@ peraT4=sc.nextInt();
 importetotal= (manzanaT1+manzanaT2+manzanaT3+manzanaT4)*preciomanzana;
 importetotal = (peraT1+peraT2+peraT3+peraT4)*preciopera;
 
-System.out.println("la venta de las manzanas y peras en el año fue: " + importetotal +  " pesos");*/
+System.out.println("la venta de las manzanas y peras en el año fue: " + importetotal +  " pesos");
 //FIN DEL EJERCICIO
 
 //CALCULE LA LONGITUD Y EL AREA DE UNA CIRCUNFERENCIA.EL USUSARIO DEBE INTRODUCIR EL RADIO
 
-/*double pi= 3.14;
+double pi= 3.14;
 double area;
 double radio,longitud ;
 
@@ -95,11 +95,11 @@ longitud= 2*pi*radio;
 area= pi*radio*radio;
  System.out.print("La longitud del circulo es: "+ longitud);
  System.out.print("El area de la circunferencia es: "+ area);
-*/
+
 //FIN DEL AJERCCIO
 
 //CONTABILIZADOR DE NUMEROS DE PATAS DE ESPECIES CAPTURADOS
-/*int hormigas=6;
+int hormigas=6;
 int arañas=8;
 int cochinilla=14;
 
@@ -115,7 +115,7 @@ System.out.print("ingrese cuantas cochinillas capturaron el dia de hoy: ");
 cochinillacap= sc.nextInt();
 
 System.out.println("el numero total de patas capturadas hoy es: "+ ((hormigas*hormigacap)+(arañas*arañacap)+(cochinilla*cochinillacap)) );
-*/
+
 
 //programa que muestre el residuo del numero 7 para saber cuanto falta para que sea ede multiplo 7
 int numeroingresado;    
