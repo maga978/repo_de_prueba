@@ -76,7 +76,7 @@ System.out.print("el primer numero es el mayor: "+num1+ " " +"mayor"+ " " +num2+
 }*/
 
 //pedir tres numeros y mostrarlos ordenados de mayor a menor
-int num1;
+/*int num1;
 int num2;
 int num3;
  System.out.print("introduzca el primer numero: ");
@@ -86,7 +86,21 @@ int num3;
  System.out.print("introduzca el tercer numero: ");
  num3=sc.nextInt();
 
-
+if(num1>num2 && num2>num3){
+System.out.print(num1+","+num2+ ","+num3);
+}else if(num1>num3 && num3>num2){
+System.out.print(num1+","+num3+ ","+num2);
+}else if(num2>num1 && num1>num3){
+System.out.print(num2+","+num3+ ","+num1);
+}else if(num2>num3 && num3>num1){
+ System.out.print(num2+","+num3+ ","+num1);   
+}else if(num3>num1 && num1>num2){
+System.out.print(num3+","+num1+ ","+num2); 
+}else if(num3>num2 && num2>num1){
+System.out.print(num3+","+num1+ ","+num2); 
+    
+}*/
+   
 
 
 
